@@ -1,13 +1,25 @@
 import { useState } from 'react'
 import './App.css'
+import CheckBoxes from './CheckBoxes'
 
 function App() {
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('')
-  const [email, setEmail] = useState('')
+  // const [name, setName] = useState('');
+  // const [password, setPassword] = useState('')
+  // const [email, setEmail] = useState('')
   
   return (
     <>
+    <CheckBoxes />
+
+
+
+
+
+
+
+
+
+
     {/* <h1>Controlled Component</h1>
     <input type="text" placeholder='Enter Your Name' value={name} onChange={(event)=>{setName(event.target.value)}}/>
     <br />
