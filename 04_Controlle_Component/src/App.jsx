@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import './App.css'
-import CheckBoxes from './CheckBoxes'
+import { useState } from 'react';
+import './App.css';
+import CheckBoxes from './CheckBoxes';
+import RadioBox from './RadioBox';
 
 function App() {
   // const [name, setName] = useState('');
@@ -9,8 +10,8 @@ function App() {
   
   return (
     <>
-    <CheckBoxes />
-
+    {/* <CheckBoxes /> */}
+    <RadioBox />
 
 
 
